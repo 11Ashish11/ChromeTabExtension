@@ -4,9 +4,14 @@
     "manifest_version": 3,
     "description": "Display the number of open tabs in the Chrome browser.",
     "permissions": [
-        "tabs"
+        "tabs",
+        "scripting"
     ],
     "background": {
         "service_worker": "background.js"
-    }
+    },
+    "host_permissions": [
+        "*://*/*",
+        "<all_urls>"
+    ]
 }
