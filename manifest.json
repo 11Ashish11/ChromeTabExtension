@@ -1,0 +1,12 @@
+{
+    "name": "Chrome Tabs Display",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Display the number of open tabs in the Chrome browser.",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
