@@ -1,5 +1,5 @@
 {
-    "name": "Chrome Tabs Display",
+    "name": "Chrome Tabs Numbers",
     "version": "1.0",
     "manifest_version": 3,
     "description": "Display the number of open tabs in the Chrome browser.",
@@ -13,5 +13,8 @@
     "host_permissions": [
         "*://*/*",
         "<all_urls>"
-    ]
+    ],
+    "icons": {
+        "128": "logos/logo.png"
+    }
 }
